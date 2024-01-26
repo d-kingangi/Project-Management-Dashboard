@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                
+            </div>
+            <div class="nav-links">
+                <a href="./home.html">Home</a>
+                <a href="./create.html">Create</a>
+            </div>
+            
+        </div>
+
+        <div class="create-container">
+            <form id="projectForm">
+                <label for="projectName">Project Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="projectUrl"> Project Website:</label>
+                <input type="text" id="projectUrl" name="projectUrl" required>
+            
+                <label for="founder">Project Founder</label>
+                <input type="text" id="founder" name="founder" required>
+            
+                <label for="desc">Project Description:</label>
+                <input type="text" id="desc" name="desc" required>
+            
+                <label for="years">Number of years in operation</label>
+                <input type="text" id="years" name="years">
+            
+                <div class="button-container">
+                    <button type="submit" class="create">Create</button>
+                    <button type="button" class="cancel">Cancel</button>
+                </div>
+
+            </form>
+        </div>
+    </div> 
+    <script src="dist\main.js"></script>
+</body>
+</html>
